@@ -9,48 +9,74 @@
   </head>
   <body>
     <div class="container">
-      <div class="commentContainer">
-        <div class="scoreSection">
-          <p class="plus">+</p>
-          <p class="score">12</p>
-          <p class="minus">-</p>
-        </div>
-        <div class="commentBody">
-          <div class="nameSection">
-            <p class="name">
-              amyrobson <span class="dateLog">1 month ago</span>
-            </p>
-            <img src="images/icon-reply.svg" class="reply" />
+      <div class="subContainer">
+        <!--<div class="commentContainer">
+          <div class="scoreSection">
+            <p class="plus scoreBtn">+</p>
+            <p class="score">12</p>
+            <p class="minus scoreBtn">-</p>
           </div>
-          <div class="content">
-            Impressive! Though it seems the drag feature could be improved. But
-            overall it looks incredible. You've nailed the design and the
-            responsiveness at various breakpoints works really well.
-          </div>
-        </div>
-      </div>
+          <div class="commentBody">
+            <div class="nameSection">
+              <div class="flex gap-2">
+                <img
+                  src="images/avatars/image-amyrobson.png"
+                  class="profileImg"
+                />
+                <p class="name">
+                  amyrobson <span class="dateLog">1 month ago</span>
+                </p>
+              </div>
 
-      <div class="replyContainer">
-        <div class="scoreSection">
-          <p class="plus">+</p>
-          <p class="score">12</p>
-          <p class="minus">-</p>
-        </div>
-        <div class="commentBody">
-          <div class="nameSection">
-            <p class="name">
-              amyrobson <span class="dateLog">1 month ago</span>
-            </p>
-            <img src="images/icon-reply.svg" class="reply" />
+              <img src="images/icon-reply.svg" class="reply" />
+            </div>
+            <div class="content">
+              Impressive! Though it seems the drag feature could be improved.
+              But overall it looks incredible. You've nailed the design and the
+              responsiveness at various breakpoints works really well.
+            </div>
           </div>
-          <div class="content">
-            Impressive! Though it seems the drag feature could be improved. But
-            overall it looks incredible. You've nailed the design and the
-            responsiveness at various breakpoints works really well.
+        </div>-->
+
+        <div class="replyContainer">
+          <div class="scoreSection">
+            <p class="plus scoreBtn">+</p>
+            <p class="score">12</p>
+            <p class="minus scoreBtn">-</p>
+          </div>
+          <div class="commentBody">
+            <div class="nameSection">
+              <div class="flex gap-2">
+                <img
+                  src="images/avatars/image-amyrobson.png"
+                  class="profileImg"
+                />
+                <p class="name">
+                  amyrobson <span class="dateLog">1 month ago</span>
+                </p>
+              </div>
+              <img src="images/icon-reply.svg" class="reply" />
+            </div>
+            <div class="content">
+              Impressive! Though it seems the drag feature could be improved.
+              But overall it looks incredible. You've nailed the design and the
+              responsiveness at various breakpoints works really well.
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="commentInputSection">
+      <img src="images/avatars/image-juliusomo.png" class="commentProfile" />
+      <textarea
+        class="commentInput"
+        placeholder="Add comment..."
+        cols="30"
+        rows="10"
+      ></textarea>
+      <button class="sendComment">Send</button>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
