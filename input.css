@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-10/12 mx-auto p-4 bg-slate-200 rounded-xl;
+}
+
+.commentContainer {
+  @apply flex gap-8 w-2/3 mx-auto bg-blue-300 p-4 rounded-xl mb-5;
+}
+
+.replyContainer {
+  @apply w-1/2  flex gap-8 mx-auto bg-blue-500 p-4 rounded-xl mb-5;
+}
+
+.scoreSection {
+  @apply flex flex-col  p-2 bg-slate-300 rounded-xl text-center h-24;
+}
+
+.score {
+  @apply font-semibold text-purple-600;
+}
+
+.nameSection {
+  @apply flex justify-between mb-4;
+}
+
+.name {
+  @apply font-semibold;
+}
+
+.dateLog {
+  @apply font-normal ml-5;
+}
+
+.reply {
+  @apply h-4;
+}
