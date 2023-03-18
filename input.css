@@ -7,7 +7,7 @@
 }
 
 .commentContainer {
-  @apply flex gap-8 w-2/3 mx-auto bg-blue-300 p-4 rounded-xl mb-5;
+  @apply flex gap-8 w-2/3 bg-blue-300 p-4 rounded-xl mb-5;
 }
 
 .replyContainer {
@@ -42,12 +42,16 @@
   @apply font-semibold;
 }
 
+.userTag {
+  @apply bg-purple-600 py-0.5 px-2 rounded-lg text-white font-semibold;
+}
+
 .dateLog {
   @apply font-normal ml-5;
 }
 
 .reply {
-  @apply h-4;
+  @apply h-4 cursor-pointer;
 }
 
 .commentInputSection {
